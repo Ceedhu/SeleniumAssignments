@@ -30,6 +30,17 @@ public class FibonacciSeries {
 		// Assign sum to the second number
 		
 		// print sum
+		
+		int result, num1=0, num2=1, n=8, i;
+		
+		for(i=1;i<=n;++i) {
+			
+		result=num1+num2;
+		num1=num2;
+		num2=result;
+		
+		System.out.println( num1+" ");
+		}
 
 	}
 
